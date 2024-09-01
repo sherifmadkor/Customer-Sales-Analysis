@@ -48,6 +48,41 @@ The dataset contains sales transaction data with the following columns:
 ### Profit Margin Analysis
 - Compare profit margins across product categories.
 - Evaluate the variation of profit margins by month.
+Here’s a revised list of the business questions you answered during your project:
+
+---
+
+## Business Questions Answered
+
+### General Questions
+1. **How many unique customer regions are in the dataset?**
+2. **Which state has the highest number of transactions?**
+  
+### Product Analysis
+3. **What is the most popular product category?**
+4. **Which product category generates the most profit?**
+5. **What is the average selling price per product category?**
+6. **Which product category has the highest sales volume?**
+  
+### Sales Analysis
+7. **What is the total sales amount by month?**
+8. **Which month generates the highest total sales?**
+9. **How does the sales trend vary across different regions?**
+10. **Which payment method is the most commonly used?**
+  
+### Customer Analysis
+11. **What is the gender distribution of customers?**
+12. **Which age group is responsible for the most purchases?**
+13. **Which customer segment (by region or demographic) is the most profitable?**
+  
+### Profit Margin Analysis
+14. **What is the profit margin for each product category?**
+15. **How does the profit margin vary across different months?**
+  
+### Demographic Analysis
+16. **How does average spending compare across different demographic groups?**
+17. **What is the variation in profit margins across different customer demographics?**
+
 
 ## Approach Used
 1. **Data Cleaning**: Excel was used for data wrangling, including separating date and time, ensuring consistency in text data, and calculating new fields like profit percentage.
