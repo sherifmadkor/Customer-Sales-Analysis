@@ -14,31 +14,34 @@ Identifying areas for strategic improvement and optimization.
 About Data
 The dataset contains sales transactions with the following columns:
 
-Column	Description	Data Type
-invoice_no	Unique identifier for each invoice	Text
-invoice_date	Date and time when the invoice was issued	Date/Time
-invoice_time	Time of the invoice issuance	Time
-customer_id	Unique identifier for each customer	Text
-gender	Gender of the customer	Text
-age	Age of the customer	Number
-category	Category of the product or service	Text
-quantity	Quantity of the product purchased	Number
-selling_price_per_unit	Selling price per unit of the product	Currency
-cost_price_per_unit	Cost price per unit of the product	Currency
-payment_method	Method of payment used by the customer	Text
-region	Geographic region where the transaction occurred	Text
-state	State within the region	Text
-shopping_mall	Shopping mall where the transaction occurred	Text
-total_sales	Total sales amount for the transaction	Currency
-total_cost	Total cost amount for the transaction	Currency
-profit	Profit amount for the transaction	Currency
-profit_margin	Profit margin as a percentage of total sales	Percentage
-profit_percentage	Profit percentage for each transaction	Percentage
-month	Month extracted from the invoice_date	Text
-day	Day extracted from the invoice_date	Number
-oct_profit	Total profit for October	Currency
-oct_profit_percentage	Profit percentage specifically for October	Percentage
-avg_monthly_profit	Average profit per month	Currency
+| **Column**               | **Description**                                  | **Data Type**        |
+|--------------------------|--------------------------------------------------|----------------------|
+| `invoice_no`             | Invoice of the sales made                        | VARCHAR(30)          |
+| `invoice_date`           | Date of the sales transaction                    | DATE                 |
+| `invoice_time`           | Time of the sales transaction                    | TIME                 |
+| `customer_id`            | Unique ID of the customer                        | VARCHAR(30)          |
+| `gender`                 | Gender of the customer                           | VARCHAR(10)          |
+| `age`                    | Age of the customer                              | INT                  |
+| `category`               | Product category                                 | VARCHAR(100)         |
+| `quantity`               | Quantity of the product sold                     | INT                  |
+| `selling_price_per_unit` | Selling price per unit of the product            | DECIMAL(10, 2)       |
+| `cost_price_per_unit`    | Cost price per unit of the product               | DECIMAL(10, 2)       |
+| `payment_method`         | Payment method used by the customer              | VARCHAR(20)          |
+| `region`                 | Geographical region where the sale occurred      | VARCHAR(50)          |
+| `state`                  | State where the sale occurred                    | VARCHAR(50)          |
+| `shopping_mall`          | Shopping mall where the sale occurred            | VARCHAR(100)         |
+| `total_sales`            | Total sales amount                               | DECIMAL(12, 2)       |
+| `total_cost`             | Total cost amount                                | DECIMAL(12, 2)       |
+| `profit`                 | Profit generated from the sale                   | DECIMAL(12, 2)       |
+| `profit_margin`          | Profit margin percentage                         | DECIMAL(5, 2)        |
+| `profit_percentage`      | Profit percentage                                | DECIMAL(5, 2)        |
+| `month`                  | Month of the transaction                         | VARCHAR(10)          |
+| `day`                    | Day of the transaction                           | INT                  |
+| `oct_profit`             | Profit for the month of October                  | DECIMAL(12, 2)       |
+| `oct_profit_percentage`  | Profit percentage for the month of October       | DECIMAL(5, 2)        |
+| `avg_monthly_profit`     | Average profit per month                         | DECIMAL(12, 2)       |
+
+
 Analysis List
 Product Analysis
 Analyze different product categories to determine top performers and areas needing improvement.
