@@ -2,7 +2,7 @@
 # Sales Data Analysis
 
 ## About
-This project focuses on analyzing sales data to extract insights on sales trends, customer demographics, and profitability across different product categories. The dataset includes various fields such as invoice details, customer demographics, and financial metrics like total sales, costs, and profit. Data cleaning was performed using Excel, and the analysis was visualized in Power BI.
+This project focuses on analyzing 📊 sales data to extract insights on sales trends, customer demographics, and profitability across different product categories. The dataset includes various fields such as invoice details, customer demographics, and financial metrics like total sales, costs, and profit. Data cleaning was performed using Excel 🧹, and the analysis was visualized in Power BI 📈.
 
 ## Purpose of the Project
 The main objective is to understand sales patterns, customer behavior, and the profitability of different product categories to provide actionable insights for optimizing business strategies.
